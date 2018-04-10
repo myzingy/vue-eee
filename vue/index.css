@@ -1,0 +1,129 @@
+body,*{
+    color: #121212;
+    font-family: Microsoft YaHei,Arial, Helvetica, sans-serif;
+}
+.el-table th{
+    padding: 5px 0px;
+    color: #0f0f0f;
+}
+.el-table td{
+    padding: 3px 0px;
+}
+.el-table td .cell{
+    padding: 0 2px;
+}
+.el-table td .cell button{
+    padding: 0 2px;
+}
+.el-main{padding: 10px 20px 0;}
+
+.el-table--border, .el-table--group{
+    border-color:#00acd6;
+}
+.el-table td, .el-table th.is-leaf{
+    border-color:#00acd6;
+}
+.el-table--border, .el-table--group{
+    border-color:#00acd6;
+}
+.el-table td, .el-table th.is-leaf{
+    border-color:#00acd6;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before{
+    background-color: #00acd6;
+}
+.el-table__fixed-right::before, .el-table__fixed::before{
+    background:none;
+}
+.el-table__expanded-cell[class*=cell]{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+table.customTable{
+    width:100%;
+    border-top: 1px solid #e6ebf5;
+    border-left: 1px solid #e6ebf5;
+}
+table.customTable td{
+    padding: 10px;
+    border-right: 1px solid #e6ebf5;
+    border-bottom: 1px solid #e6ebf5;
+}
+table.customTable .button-mini{
+    padding: 7px
+}
+table.text_center td{
+    text-align: center;
+}
+
+.form-read label {
+    width: 90px;
+    color: #99a9bf;
+}
+.form-read .el-form-item {
+    margin-right: 0;
+    width: 32%;
+}
+.form-read
+,.form-read .el-form-item__label
+,.form-read .el-form-item__content{
+    line-height: 24px;
+}
+.form-read .el-form-item{
+    border: 1px solid #00acd6;
+    margin-bottom: 5px;
+}
+.form-read .el-form-item__label{
+    background-color: #00acd6;
+    color: #fff;
+    padding-left: 5px;
+}
+.form-read .el-form-item__content{
+    padding-left: 5px;
+}
+.form-read h4{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.form-read .el-form--inline .el-form-item__label {
+    float: left;
+}
+.form-read .el-button{
+    padding: 0;
+}
+.dialog-compact .el-dialog__header{
+    padding: 10px;
+}
+.dialog-compact .el-dialog__body{
+    padding: 0 10px;
+}
+.dialog-compact .el-dialog__footer{
+    padding: 0 10px 8px;
+}
+
+.leftMenu .el-submenu__title{
+    text-indent: -4px;
+    color: #409EFF;
+}
+.leftMenu .el-submenu__title i{
+    color: #67C23A;
+}
+.el-header{
+    padding: 0;
+}
+.sidle-border{
+    position: fixed;
+    top: 50%;
+    left: 195px;
+    z-index: 999;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E6A23C;
+}
+.menu-style-left{
+    width:70px;
+}
+.menu-style-left:hover{
+    width:300px;
+    z-index: 99;
+}
